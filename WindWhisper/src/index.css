@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(circle at 200% 0, #041924 0, #01476a 100%);
+  color: var(--white);
+}
+@font-face {
+  font-family: "Feather";
+  src: url("./assets/Feather Bold.ttf");
+}
