@@ -25,7 +25,7 @@ const Home = ({ onButtonClick, inputValue, handleChange }) => {
 
       <div className="w-1/2 bg-[#00A9FF]/20 p-4 rounded-3xl backdrop-blur-md text-white">
         <img
-          src="public/weather/rainbow.png"
+          src="/weather/rainbow.png"
           className="max-w-2xl mx-auto"
           alt="rainbow"
         />

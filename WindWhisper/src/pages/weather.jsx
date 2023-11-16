@@ -47,7 +47,7 @@ const Weather = ({ apiKey }) => {
         {apiData.main ? (
           <div>
             <img
-              src={`public/weather/${apiData.weather[0].main}.png`}
+              src={`/weather/${apiData.weather[0].main}.png`}
               alt={`${apiData.weather[0].main} weather status icon`}
               className="max-w-xs"
             />
